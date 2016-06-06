@@ -1,0 +1,71 @@
+Mar 14 13:11:50 golf gdm-password]: gkr-pam: unlocked login keyring
+Mar 14 13:52:13 golf su: pam_unix(su-l:auth): authentication failure; logname=dmd uid=1000 euid=0 tty=pts/3 ruser=dmd rhost=  user=root
+Mar 14 13:52:13 golf su: pam_succeed_if(su-l:auth): requirement "uid >= 1000" not met by user "root"
+Mar 15 12:31:00 golf gdm-password]: gkr-pam: unlocked login keyring
+Mar 15 12:31:44 golf su: pam_unix(su:session): session opened for user root by dmd(uid=1000)
+Mar 15 12:39:50 golf su: pam_unix(su:session): session closed for user root
+Mar 15 12:41:04 golf su: pam_unix(su-l:session): session opened for user root by dmd(uid=1000)
+Mar 15 12:49:57 golf gdm-password]: gkr-pam: unlocked login keyring
+Mar 15 13:28:21 golf gdm-password]: gkr-pam: unlocked login keyring
+Mar 17 11:34:54 golf gdm-password]: pam_unix(gdm-password:session): session opened for user dmd by (unknown)(uid=0)
+Mar 17 11:34:55 golf gdm-launch-environment]: pam_systemd(gdm-launch-environment:session): Failed to release session: Interrupted system call
+Mar 17 11:34:55 golf gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar 17 11:34:55 golf polkitd[709]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.27, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 17 11:35:00 golf polkitd[709]: Registered Authentication Agent for unix-session:9 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Mar 18 11:57:43 golf su: pam_unix(su-l:auth): authentication failure; logname=dmd uid=1000 euid=0 tty=pts/0 ruser=dmd rhost=  user=root
+Mar 18 11:57:43 golf su: pam_succeed_if(su-l:auth): requirement "uid >= 1000" not met by user "root"
+Mar 18 11:57:55 golf su: pam_unix(su-l:session): session opened for user root by dmd(uid=1000)
+Mar 18 12:09:39 golf su: pam_unix(su-l:session): session closed for user root
+Mar 18 12:23:23 golf su: pam_unix(su-l:session): session opened for user root by dmd(uid=1000)
+Mar 18 12:23:36 golf polkitd[697]: Registered Authentication Agent for unix-process:7322:246930 (system bus name :1.138 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 18 12:23:37 golf polkitd[697]: Unregistered Authentication Agent for unix-process:7322:246930 (system bus name :1.138, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 18 12:24:41 golf su: pam_unix(su-l:session): session closed for user root
+Mar 18 12:44:17 golf polkitd[697]: Registered Authentication Agent for unix-process:8607:371055 (system bus name :1.151 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Mar 18 12:44:20 golf polkit-agent-helper-1[8629]: pam_unix(polkit-1:auth): authentication failure; logname= uid=1000 euid=0 tty= ruser=dmd rhost=  user=dmd
+Mar 18 12:44:26 golf polkit-agent-helper-1[8694]: pam_unix(polkit-1:auth): authentication failure; logname= uid=1000 euid=0 tty= ruser=dmd rhost=  user=dmd
+Mar 18 12:44:31 golf polkit-agent-helper-1[8695]: pam_unix(polkit-1:auth): authentication failure; logname= uid=1000 euid=0 tty= ruser=dmd rhost=  user=dmd
+Mar 18 12:44:35 golf polkitd[697]: Operator of unix-session:4 FAILED to authenticate to gain authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.152 [systemctl restart mariadb] (owned by unix-user:dmd)
+Mar 18 12:44:35 golf polkitd[697]: Unregistered Authentication Agent for unix-process:8607:371055 (system bus name :1.151, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.utf8) (disconnected from bus)
+Mar 18 12:44:37 golf polkitd[697]: Registered Authentication Agent for unix-process:8774:373008 (system bus name :1.162 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Mar 18 12:44:41 golf polkitd[697]: Operator of unix-session:4 successfully authenticated as unix-user:dmd to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.163 [systemctl restart mariadb] (owned by unix-user:dmd)
+Mar 18 12:44:44 golf polkitd[697]: Unregistered Authentication Agent for unix-process:8774:373008 (system bus name :1.162, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.utf8) (disconnected from bus)
+Mar 18 12:44:48 golf polkitd[697]: Registered Authentication Agent for unix-process:9312:374193 (system bus name :1.169 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Mar 18 12:44:53 golf polkitd[697]: Operator of unix-session:4 successfully authenticated as unix-user:dmd to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.170 [systemctl restart httpd] (owned by unix-user:dmd)
+Mar 18 12:44:54 golf polkitd[697]: Unregistered Authentication Agent for unix-process:9312:374193 (system bus name :1.169, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.utf8) (disconnected from bus)
+Mar 18 12:55:19 golf gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=dmd
+Mar 18 12:55:19 golf gdm-password]: gkr-pam: the password for the login keyring was invalid.
+Mar 18 12:55:27 golf gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=dmd
+Mar 18 12:55:27 golf gdm-password]: gkr-pam: the password for the login keyring was invalid.
+Mar 18 12:56:45 golf gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=dmd
+Mar 18 12:56:45 golf gdm-password]: gkr-pam: the password for the login keyring was invalid.
+Mar 18 12:56:55 golf gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=dmd
+Mar 18 12:56:55 golf gdm-password]: gkr-pam: the password for the login keyring was invalid.
+Mar 18 12:57:07 golf gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=dmd
+Mar 18 12:57:07 golf gdm-password]: gkr-pam: the password for the login keyring was invalid.
+Mar 18 12:57:19 golf gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=dmd
+Mar 18 12:57:19 golf gdm-password]: gkr-pam: the password for the login keyring was invalid.
+Mar 18 12:59:19 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+Mar 18 12:59:19 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+Mar 18 12:59:19 golf gdm-password]: gkr-pam: no password is available for user
+Mar 18 13:18:43 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+Mar 18 13:18:43 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+Mar 18 13:18:43 golf gdm-password]: gkr-pam: no password is available for user
+Mar 18 13:18:50 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+Mar 18 13:18:50 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+Mar 18 13:18:50 golf gdm-password]: gkr-pam: no password is available for user
+Mar 18 13:18:55 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+Mar 18 13:18:55 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+Mar 18 13:18:55 golf gdm-password]: gkr-pam: no password is available for user
+Mar 18 13:35:15 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+Mar 18 13:35:15 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+Mar 18 13:35:15 golf gdm-password]: gkr-pam: no password is available for user
+Mar 18 13:35:15 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+Mar 18 13:35:15 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+Mar 18 13:35:15 golf gdm-password]: gkr-pam: no password is available for user
+Mar 18 13:35:16 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+Mar 18 13:35:16 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+Mar 18 13:35:16 golf gdm-password]: gkr-pam: no password is available for user
+Mar 18 13:35:28 golf gdm-password]: gkr-pam: unlocked login keyring
+Mar 18 13:44:04 golf gdm-password]: gkr-pam: unlocked login keyring
+Mar 18 13:54:21 golf gdm-password]: gkr-pam: unlocked login keyring
+Mar 21 12:02:36 golf gdm-password]: gkr-pam: unlocked login keyring

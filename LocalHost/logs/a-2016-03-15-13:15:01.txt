@@ -1,0 +1,8 @@
+Mar 14 13:11:50 golf gdm-password]: gkr-pam: unlocked login keyring
+Mar 14 13:52:13 golf su: pam_unix(su-l:auth): authentication failure; logname=dmd uid=1000 euid=0 tty=pts/3 ruser=dmd rhost=  user=root
+Mar 14 13:52:13 golf su: pam_succeed_if(su-l:auth): requirement "uid >= 1000" not met by user "root"
+Mar 15 12:31:00 golf gdm-password]: gkr-pam: unlocked login keyring
+Mar 15 12:31:44 golf su: pam_unix(su:session): session opened for user root by dmd(uid=1000)
+Mar 15 12:39:50 golf su: pam_unix(su:session): session closed for user root
+Mar 15 12:41:04 golf su: pam_unix(su-l:session): session opened for user root by dmd(uid=1000)
+Mar 15 12:49:57 golf gdm-password]: gkr-pam: unlocked login keyring

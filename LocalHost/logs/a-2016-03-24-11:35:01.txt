@@ -1,0 +1,12 @@
+Mar 22 12:40:53 golf gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=dmd
+Mar 22 12:40:53 golf gdm-password]: gkr-pam: the password for the login keyring was invalid.
+Mar 22 12:43:06 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+Mar 22 12:43:06 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+Mar 22 12:43:06 golf gdm-password]: gkr-pam: no password is available for user
+Mar 23 11:51:25 golf gdm-password]: pam_unix(gdm-password:session): session opened for user dmd by (unknown)(uid=0)
+Mar 23 11:51:29 golf gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar 23 11:51:29 golf polkitd[720]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.27, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 23 11:51:32 golf polkitd[720]: Registered Authentication Agent for unix-session:4 (system bus name :1.71 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Mar 23 12:16:13 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+Mar 23 12:16:13 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+Mar 23 12:16:13 golf gdm-password]: gkr-pam: no password is available for user

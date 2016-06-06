@@ -1,0 +1,18 @@
+Mar 14 13:11:50 golf gdm-password]: gkr-pam: unlocked login keyring
+Mar 14 13:52:13 golf su: pam_unix(su-l:auth): authentication failure; logname=dmd uid=1000 euid=0 tty=pts/3 ruser=dmd rhost=  user=root
+Mar 14 13:52:13 golf su: pam_succeed_if(su-l:auth): requirement "uid >= 1000" not met by user "root"
+Mar 15 12:31:00 golf gdm-password]: gkr-pam: unlocked login keyring
+Mar 15 12:31:44 golf su: pam_unix(su:session): session opened for user root by dmd(uid=1000)
+Mar 15 12:39:50 golf su: pam_unix(su:session): session closed for user root
+Mar 15 12:41:04 golf su: pam_unix(su-l:session): session opened for user root by dmd(uid=1000)
+Mar 15 12:49:57 golf gdm-password]: gkr-pam: unlocked login keyring
+Mar 15 13:28:21 golf gdm-password]: gkr-pam: unlocked login keyring
+Mar 17 11:34:54 golf gdm-password]: pam_unix(gdm-password:session): session opened for user dmd by (unknown)(uid=0)
+Mar 17 11:34:55 golf gdm-launch-environment]: pam_systemd(gdm-launch-environment:session): Failed to release session: Interrupted system call
+Mar 17 11:34:55 golf gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar 17 11:34:55 golf polkitd[709]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.27, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 17 11:35:00 golf polkitd[709]: Registered Authentication Agent for unix-session:9 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Mar 18 11:57:43 golf su: pam_unix(su-l:auth): authentication failure; logname=dmd uid=1000 euid=0 tty=pts/0 ruser=dmd rhost=  user=root
+Mar 18 11:57:43 golf su: pam_succeed_if(su-l:auth): requirement "uid >= 1000" not met by user "root"
+Mar 18 11:57:55 golf su: pam_unix(su-l:session): session opened for user root by dmd(uid=1000)
+Mar 18 12:09:39 golf su: pam_unix(su-l:session): session closed for user root

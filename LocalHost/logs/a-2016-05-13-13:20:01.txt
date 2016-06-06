@@ -1,0 +1,122 @@
+May  9 12:20:59 golf gdm-password]: gkr-pam: unlocked login keyring
+May  9 13:13:02 golf gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=dmd
+May  9 13:13:02 golf gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May  9 13:13:10 golf gdm-password]: gkr-pam: unlocked login keyring
+May  9 13:45:12 golf gdm-password]: gkr-pam: unlocked login keyring
+May 10 13:15:30 golf gdm-password]: pam_unix(gdm-password:session): session opened for user dmd by (unknown)(uid=0)
+May 10 13:15:33 golf gdm-launch-environment]: pam_systemd(gdm-launch-environment:session): Failed to release session: Interrupted system call
+May 10 13:15:33 golf gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+May 10 13:15:33 golf polkitd[691]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.27, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May 10 13:15:36 golf polkitd[691]: Registered Authentication Agent for unix-session:50 (system bus name :1.163 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+May 11 11:50:54 golf gdm-password]: gkr-pam: unlocked login keyring
+May 11 12:05:09 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 11 12:05:09 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 11 12:05:09 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:20:49 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:20:49 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:20:49 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:49:56 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:49:56 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:49:56 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:53:43 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:53:43 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:53:43 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:53:43 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:53:43 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:53:43 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:53:44 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:53:44 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:53:44 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:53:44 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:53:44 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:53:44 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:53:48 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:53:48 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:53:48 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:54:04 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:54:04 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:54:04 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:54:37 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:54:37 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:54:37 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:54:38 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:54:38 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:54:38 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:54:38 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:54:38 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:54:38 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:54:39 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:54:39 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:54:39 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:54:39 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:54:39 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:54:39 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:54:39 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:54:39 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:54:39 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:54:49 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:54:49 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:54:49 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:55:23 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:55:23 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:55:23 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:55:23 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:55:23 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:55:23 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:55:24 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:55:24 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:55:24 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:55:24 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:55:24 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:55:24 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:55:25 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:55:25 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:55:25 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:55:25 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:55:25 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:55:25 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:55:25 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:55:25 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:55:25 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:55:26 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:55:26 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:55:26 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:55:28 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:55:28 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:55:28 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:55:29 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:55:29 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:55:29 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:55:30 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:55:30 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:55:30 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:55:45 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:55:45 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:55:45 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:55:45 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:55:45 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:55:45 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:55:46 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:55:46 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:55:46 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:57:42 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:57:42 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:57:42 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:57:47 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:57:47 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:57:47 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:57:48 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:57:48 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:57:48 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:57:49 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:57:49 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:57:49 golf gdm-password]: gkr-pam: no password is available for user
+May 12 12:57:52 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 12 12:57:52 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 12 12:57:52 golf gdm-password]: gkr-pam: no password is available for user
+May 13 12:25:28 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 13 12:25:28 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 13 12:25:28 golf gdm-password]: gkr-pam: no password is available for user
+May 13 13:09:41 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 13 13:09:41 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 13 13:09:41 golf gdm-password]: gkr-pam: no password is available for user

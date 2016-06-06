@@ -1,0 +1,23 @@
+Mar 28 12:30:31 golf gdm-password]: gkr-pam: unlocked login keyring
+Mar 28 12:53:23 golf gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=dmd
+Mar 28 12:53:23 golf gdm-password]: gkr-pam: the password for the login keyring was invalid.
+Mar 28 12:56:52 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+Mar 28 12:56:52 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+Mar 28 12:56:52 golf gdm-password]: gkr-pam: no password is available for user
+Mar 28 13:01:32 golf gdm-password]: gkr-pam: unlocked login keyring
+Mar 29 11:48:00 golf gdm-password]: pam_unix(gdm-password:session): session opened for user dmd by (unknown)(uid=0)
+Mar 29 11:48:03 golf gdm-launch-environment]: pam_systemd(gdm-launch-environment:session): Failed to release session: Interrupted system call
+Mar 29 11:48:03 golf gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar 29 11:48:03 golf polkitd[710]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.27, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 29 11:48:08 golf polkitd[710]: Registered Authentication Agent for unix-session:4 (system bus name :1.71 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Mar 30 11:47:49 golf gdm-password]: pam_unix(gdm-password:session): session opened for user dmd by (unknown)(uid=0)
+Mar 30 11:47:50 golf polkitd[710]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.27, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 30 11:47:54 golf polkitd[710]: Registered Authentication Agent for unix-session:1 (system bus name :1.61 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Mar 30 12:31:03 golf gdm-password]: gkr-pam: unlocked login keyring
+Mar 30 13:30:56 golf gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=dmd
+Mar 30 13:30:56 golf gdm-password]: gkr-pam: the password for the login keyring was invalid.
+Mar 30 13:32:43 golf gdm-password]: gkr-pam: unlocked login keyring
+Mar 31 11:24:40 golf polkitd[749]: Registered Authentication Agent for unix-session:c1 (system bus name :1.27 [gnome-shell --mode=gdm], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 31 11:33:11 golf gdm-password]: pam_unix(gdm-password:session): session opened for user dmd by (unknown)(uid=0)
+Mar 31 11:33:14 golf polkitd[749]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.27, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 31 11:33:16 golf polkitd[749]: Registered Authentication Agent for unix-session:4 (system bus name :1.70 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.utf8)

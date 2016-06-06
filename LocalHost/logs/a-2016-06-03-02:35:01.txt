@@ -1,0 +1,18 @@
+May 31 13:08:42 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 31 13:08:42 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 31 13:08:42 golf gdm-password]: gkr-pam: no password is available for user
+Jun  1 11:39:05 golf gdm-password]: pam_unix(gdm-password:session): session opened for user dmd by (unknown)(uid=0)
+Jun  1 11:39:06 golf polkitd[707]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.27, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Jun  1 11:39:11 golf polkitd[707]: Registered Authentication Agent for unix-session:6 (system bus name :1.74 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Jun  1 13:12:37 golf gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=dmd
+Jun  1 13:12:37 golf gdm-password]: gkr-pam: the password for the login keyring was invalid.
+Jun  1 13:12:43 golf gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=dmd
+Jun  1 13:12:43 golf gdm-password]: gkr-pam: the password for the login keyring was invalid.
+Jun  1 13:12:56 golf gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=dmd
+Jun  1 13:12:56 golf gdm-password]: gkr-pam: the password for the login keyring was invalid.
+Jun  1 13:13:09 golf gdm-password]: gkr-pam: unlocked login keyring
+Jun  1 13:14:00 golf polkitd[707]: Operator of unix-session:6 successfully authenticated as unix-user:dmd to gain TEMPORARY authorization for action org.fedoraproject.FirewallD1.config for system-bus-name::1.206 [/usr/bin/python /usr/share/system-config-printer/system-config-printer.py] (owned by unix-user:dmd)
+Jun  1 13:14:07 golf polkitd[707]: Operator of unix-session:6 FAILED to authenticate to gain authorization for action org.opensuse.cupspkhelper.mechanism.devices-get for system-bus-name::1.206 [/usr/bin/python /usr/share/system-config-printer/system-config-printer.py] (owned by unix-user:dmd)
+Jun  1 13:14:44 golf polkitd[707]: Operator of unix-session:6 successfully authenticated as unix-user:dmd to gain TEMPORARY authorization for action org.opensuse.cupspkhelper.mechanism.printer-remote-edit for system-bus-name::1.206 [/usr/bin/python /usr/share/system-config-printer/system-config-printer.py] (owned by unix-user:dmd)
+Jun  1 13:16:05 golf polkitd[707]: Operator of unix-session:6 successfully authenticated as unix-user:dmd to gain TEMPORARY authorization for action org.fedoraproject.FirewallD1.config for system-bus-name::1.231 [/usr/bin/python /usr/share/system-config-printer/system-config-printer.py] (owned by unix-user:dmd)
+Jun  1 13:16:27 golf polkitd[707]: Operator of unix-session:6 successfully authenticated as unix-user:dmd to gain TEMPORARY authorization for action org.opensuse.cupspkhelper.mechanism.devices-get for system-bus-name::1.231 [/usr/bin/python /usr/share/system-config-printer/system-config-printer.py] (owned by unix-user:dmd)

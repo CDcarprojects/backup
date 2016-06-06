@@ -1,0 +1,32 @@
+Apr 25 12:53:54 golf gdm-password]: gkr-pam: unlocked login keyring
+Apr 25 13:00:25 golf gdm-password]: gkr-pam: unlocked login keyring
+Apr 25 13:14:36 golf gdm-password]: gkr-pam: unlocked login keyring
+Apr 25 13:36:53 golf gdm-password]: gkr-pam: unlocked login keyring
+Apr 26 12:23:15 golf gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=dmd
+Apr 26 12:23:15 golf gdm-password]: gkr-pam: the password for the login keyring was invalid.
+Apr 26 12:25:16 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+Apr 26 12:25:16 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+Apr 26 12:25:16 golf gdm-password]: gkr-pam: no password is available for user
+Apr 26 12:35:40 golf gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=dmd
+Apr 26 12:35:40 golf gdm-password]: gkr-pam: the password for the login keyring was invalid.
+Apr 26 12:35:49 golf gdm-password]: gkr-pam: unlocked login keyring
+Apr 26 13:33:21 golf gdm-password]: gkr-pam: unlocked login keyring
+Apr 26 13:50:50 golf pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 26 13:50:50 golf pkexec[12620]: dmd: Executing command [USER=root] [TTY=unknown] [CWD=/home/dmd] [COMMAND=/usr/libexec/gsd-backlight-helper --set-brightness 8]
+Apr 27 12:00:26 golf gdm-password]: pam_unix(gdm-password:session): session opened for user dmd by (unknown)(uid=0)
+Apr 27 12:00:29 golf polkitd[695]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.27, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 27 12:00:30 golf polkitd[695]: Registered Authentication Agent for unix-session:16 (system bus name :1.94 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Apr 27 12:18:11 golf su: pam_unix(su-l:session): session opened for user root by dmd(uid=1000)
+Apr 27 12:53:23 golf gdm-password]: gkr-pam: unlocked login keyring
+Apr 27 12:58:58 golf su: pam_unix(su-l:session): session closed for user root
+Apr 29 11:49:46 golf gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=dmd
+Apr 29 11:49:46 golf gdm-password]: gkr-pam: the password for the login keyring was invalid.
+Apr 29 11:49:55 golf gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=dmd
+Apr 29 11:49:55 golf gdm-password]: gkr-pam: the password for the login keyring was invalid.
+Apr 29 11:50:37 golf gdm-password]: gkr-pam: unlocked login keyring
+Apr 29 12:02:01 golf gdm-password]: gkr-pam: unlocked login keyring
+Apr 29 12:13:49 golf gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=dmd
+Apr 29 12:13:49 golf gdm-password]: gkr-pam: the password for the login keyring was invalid.
+Apr 29 12:13:55 golf gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=dmd
+Apr 29 12:13:55 golf gdm-password]: gkr-pam: the password for the login keyring was invalid.
+Apr 29 12:14:02 golf gdm-password]: gkr-pam: unlocked login keyring

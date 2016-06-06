@@ -1,0 +1,9 @@
+May  3 13:05:59 golf gdm-password]: gkr-pam: unlocked login keyring
+May  4 12:57:03 golf gdm-password]: gkr-pam: unlocked login keyring
+May  5 12:58:58 golf gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=dmd
+May  5 12:58:58 golf gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May  5 12:59:08 golf gdm-password]: gkr-pam: unlocked login keyring
+May  5 13:13:34 golf gdm-password]: gkr-pam: unlocked login keyring
+May  6 12:20:04 golf gdm-password]: gkr-pam: unlocked login keyring
+May  6 12:36:16 golf sudo:     dmd : TTY=pts/0 ; PWD=/home/dmd/exapp ; USER=root ; COMMAND=/bin/npm install forever -g
+May  6 12:38:25 golf su: pam_unix(su-l:session): session opened for user root by dmd(uid=1000)

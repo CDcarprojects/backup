@@ -1,0 +1,6 @@
+May 31 13:08:42 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 31 13:08:42 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 31 13:08:42 golf gdm-password]: gkr-pam: no password is available for user
+Jun  1 11:39:05 golf gdm-password]: pam_unix(gdm-password:session): session opened for user dmd by (unknown)(uid=0)
+Jun  1 11:39:06 golf polkitd[707]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.27, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Jun  1 11:39:11 golf polkitd[707]: Registered Authentication Agent for unix-session:6 (system bus name :1.74 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.utf8)

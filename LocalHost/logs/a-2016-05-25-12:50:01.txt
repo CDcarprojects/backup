@@ -1,0 +1,27 @@
+May 23 13:07:08 golf gdm-password]: gkr-pam: unlocked login keyring
+May 24 12:20:53 golf gdm-password]: gkr-pam: unlocked login keyring
+May 24 13:05:55 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 24 13:05:55 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 24 13:05:55 golf gdm-password]: gkr-pam: no password is available for user
+May 24 13:47:17 golf gdm-password]: gkr-pam: unlocked login keyring
+May 24 13:47:48 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 24 13:47:48 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 24 13:47:48 golf gdm-password]: gkr-pam: no password is available for user
+May 25 12:09:16 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 25 12:09:16 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 25 12:09:16 golf gdm-password]: gkr-pam: no password is available for user
+May 25 12:09:16 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 25 12:09:16 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 25 12:09:16 golf gdm-password]: gkr-pam: no password is available for user
+May 25 12:09:16 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 25 12:09:16 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 25 12:09:16 golf gdm-password]: gkr-pam: no password is available for user
+May 25 12:09:16 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 25 12:09:16 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 25 12:09:16 golf gdm-password]: gkr-pam: no password is available for user
+May 25 12:09:16 golf gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 25 12:09:16 golf gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [dmd]
+May 25 12:09:16 golf gdm-password]: gkr-pam: no password is available for user
+May 25 12:09:21 golf gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=dmd
+May 25 12:09:21 golf gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 25 12:09:38 golf gdm-password]: gkr-pam: unlocked login keyring

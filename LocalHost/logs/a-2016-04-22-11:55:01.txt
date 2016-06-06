@@ -1,0 +1,11 @@
+Apr 19 12:39:20 golf gdm-password]: gkr-pam: unlocked login keyring
+Apr 19 12:57:17 golf gdm-password]: gkr-pam: unlocked login keyring
+Apr 19 13:15:26 golf gdm-password]: gkr-pam: unlocked login keyring
+Apr 20 12:30:40 golf gdm-password]: gkr-pam: unlocked login keyring
+Apr 20 12:48:52 golf gdm-password]: gkr-pam: unlocked login keyring
+Apr 20 13:28:27 golf gdm-password]: gkr-pam: unlocked login keyring
+Apr 22 11:23:18 golf gdm-password]: pam_unix(gdm-password:session): session opened for user dmd by (unknown)(uid=0)
+Apr 22 11:23:19 golf polkitd[690]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.27, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 22 11:23:23 golf polkitd[690]: Registered Authentication Agent for unix-session:6 (system bus name :1.74 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Apr 22 11:41:18 golf gdm-password]: gkr-pam: unlocked login keyring
+Apr 22 11:41:26 golf su: pam_unix(su-l:session): session opened for user root by dmd(uid=1000)

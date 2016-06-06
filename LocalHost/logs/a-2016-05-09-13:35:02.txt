@@ -1,0 +1,4 @@
+May  9 12:20:59 golf gdm-password]: gkr-pam: unlocked login keyring
+May  9 13:13:02 golf gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=dmd
+May  9 13:13:02 golf gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May  9 13:13:10 golf gdm-password]: gkr-pam: unlocked login keyring
